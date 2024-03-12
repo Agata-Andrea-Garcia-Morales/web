@@ -1,0 +1,21 @@
+.Fresa{
+    color: antiquewhite;
+    background-color: rgb(235, 54, 93);
+    text-align: center;
+    text-transform: uppercase;
+
+    areabonita{
+        border: 1px;
+        border-radius: 10%;
+        background-color: rgba(240, 70, 70, 0.63);
+        color: antiquewhite;
+        height: 50px;
+        width: 450px;
+        font-size: 20px;
+    }
+
+    {label
+       padding-right: 10px;
+    }
+
+}
