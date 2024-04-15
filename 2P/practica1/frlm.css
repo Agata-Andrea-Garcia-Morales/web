@@ -1,0 +1,65 @@
+pag {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.cabecera {
+    background-color: skyblue;
+    color: rgb(21, 21, 77);
+    overflow: hidden;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.contenido img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.contenido{
+    display: flex;
+    color: rgb(221, 226, 228);
+    margin-top: 70px;
+    height: 450px;
+    width: 1300px;
+    margin-left: 35px;
+}
+
+.fondoDelContenido{
+    background-color: skyblue;
+}
+
+.contenido .izqrd{
+    flex-grow: 2;
+    flex-basis: calc(33.33% - 80px);
+    height: 500px;
+    margin: 25px 40px;
+    position: relative;
+    z-index: 3;
+}
+
+.contenido .centro{
+    flex-grow: 2;
+    flex-basis: calc(33.33% - 80px);
+    height: 500px;
+    margin: 25px 40px;
+    position: relative;
+    z-index: 3;
+}
+
+.contenido .drch{
+    flex-grow: 2;
+    flex-basis: calc(33.33% - 80px);
+    height: 500px;
+    margin: 25px 40px;
+    position: relative;
+    z-index: 3;
+}
