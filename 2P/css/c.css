@@ -1,0 +1,81 @@
+.principal{
+    height: 100vh;
+    width: calc(100% - 50px);
+    position: fixed;
+    top: 0px;
+    left: 50px;
+    z-index: -1;
+}
+
+.barra{
+    background-color: lavender;
+    height: 100vh;
+    width: 50px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.barra .boton{
+    background-color: rgb(118, 16, 128);
+    height: 0vh;
+    width: 50px;
+    position: absolute;
+    top: 414px;
+}
+
+.boton button{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    color: rgb(184, 34, 189);
+}
+
+.boton button:hover{
+    background-color: rgb(226, 169, 223);
+    color: white;
+}
+
+.lateral{
+    background-color: rgb(145, 100, 139);
+    height: 100vh;
+    width: 500px;
+    margin-left: 0;
+}
+
+.mover{
+    background-color: rgb(238, 147, 233);
+    height: 30px;
+    width: 500px;
+    margin-left: 0px;
+}
+
+.mover button{
+    height: 30px;
+    width: 30px;
+    float: right;
+}
+
+.mover button:hover{
+    color: blue;
+    background-color: rgb(194, 168, 175);
+    height: 30px;
+    width: 30px;
+    float: right;
+}
+
+.contenido{
+    background-color: rgb(206, 155, 211);
+    height: 100vh;
+    width: 500px;
+    margin-left: auto;
+    margin-top: 0px;
+    float: right;
+}
+
+.contenido input{
+    border-color: azure;
+    animation: none;
+}
