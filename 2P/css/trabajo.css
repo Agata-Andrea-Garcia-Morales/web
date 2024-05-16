@@ -1,0 +1,48 @@
+.pagiina{
+    background-color: aliceblue;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.cabeecera{
+    background-color: aqua;
+    color: white;
+    width: 100%;
+}
+
+.coontenido{
+    background-color: bisque;
+    height: 420px;
+    width: 460px;
+    margin: 0 auto;
+    position: absolute;
+    margin-top: 150px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 10px 10px 10px 10px 10px;
+}
+
+.coontenido .unom{
+    height: 190px;
+    width: 220px;
+    padding-left: 20px;
+}
+
+.coontenido .doos{
+    height: 190px;
+    width: 220px;
+    position: absolute;
+    top: 40px;
+    left: 220px;
+    padding-left: 20px;
+}
+
+.cabeecera .trees{
+    height: 100px;
+    width: 400px;
+    padding-left: 40px;
+    padding-top: 30px;
+}
