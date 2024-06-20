@@ -1,0 +1,99 @@
+.pagina {
+    color: white;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -2;
+    pointer-events: none;
+}
+.pagina img{
+    top: 40px;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    display: block;
+}
+.cabecera {
+    color: white;
+    padding: 10px;
+}
+.cabecera label{
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.cabecera img{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: block;
+}
+.contenido {
+    margin-top: 40px;
+    width: 500px;
+    height: 600px;
+    transform: translate(80%, 0%);
+    z-index: 1;
+}
+
+.contenido .parrafoarriba{
+    text-align: center;
+}
+
+.contenido .imagen img{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    margin-left: 150px;
+}
+
+.contenido .contenidoabajo{
+    margin-top: 200px;
+}
+
+.contenido .contenidoabajo h1{
+    text-align: center;
+}
+
+.contenido .contenidoabajo p{
+    text-align: center;
+}
+
+.contenido .contenidoabajo button{
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(140%);
+}
+
+.contenido .contenidoabajo input{
+    margin: 0 auto;
+    display: block;
+}
+
+.navbar{
+    background-color: transparent;
+    top: -6px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: block;
+}
+
+.navbar img{
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.navbar span{
+    height: 40px;
+    width: 40px;
+}
