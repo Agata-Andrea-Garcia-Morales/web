@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(240, 180, 237);
+}
+
+.navbar{
+    background-color: rgb(228, 171, 233);
+    color: white;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0 10px 7.5px rgba(0, 0, 0, 0.2);
+}
+
+img{
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.si:hover{
+    background-color: rgb(65, 211, 77);
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+.si:hover{
+    background-color: rgb(255, 240, 24);
+}
+
+p, h1, .nav-link{
+    color: white;
+}
+
+.degradado{
+    background-image: linear-gradient(to top, rgb(250, 168, 236) 80%, transparent 100%);
+    margin-bottom: -20px;
+}
